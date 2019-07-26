@@ -292,43 +292,58 @@ li {
 }
 
 @media (max-width:800px){
-    body{width:100%;}
+	body{
+		width:80%;
+		margin: 0% 5% 2% 10%;
+	}
 
     .nav-container {
         width: 80%;
         flex-flow: row wrap-reverse;
-        font-size: 1%;
-        margin: auto; 
+        font-size: 100%;
+        margin: 0 auto; 
     }
 
     .nav-container a {
-        font-size: 15px;
+        font-size: 80%;
 
     }
 
     .logo {
-        width: 80%;
-        padding: 2% 0% 5% 40%;    
+        width: 100%;
+        padding: 2% 0% 5% 35%;    
     }
 
     .round-image{display:none;}
 
     .caption-img-btn{
-        width: 80%;
-    }
+        width: 100%;
+		font-size: 80%;
+		padding: 1% 1% 3% 1%;  
+	  }
 
     .text-container{
-        width: 80%;
-        font-size: 80%;
-        margin: 0 auto;
+        width: 100%;
+        margin: 2% 0% 2% 0%;
+        padding: 1%
     }
     .features-about{
-        width: 80%;
+        width: 100%;
+        
     }
 
     .features-articles{
-        font-size: 80%;
-    }
+		 width: 100%;
+		 font-size: 85%;
+		 margin: 3% 0% 3% 3%;
+		 }
+		 
+	.br{padding-left: 3%;}
+
+    .middle-img{width: 100%}
+
+	.services-product-vision{width: 100%;}
+	h4{widows: 100%;}
 
 }
 

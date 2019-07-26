@@ -292,40 +292,37 @@ li {
 }
 
 @media (max-width:800px){
-	body{
-		width:80%;
-		margin: 0% 5% 2% 10%;
+	body {
+		width: 90%;
 	}
 
     .nav-container {
-        width: 80%;
+        width: 100%;
         flex-flow: row wrap-reverse;
         font-size: 100%;
-        margin: 0 auto; 
+		margin: 0 auto;
+		padding-top: 0; 
     }
 
     .nav-container a {
-        font-size: 80%;
+        font-size: 100%;
 
     }
 
     .logo {
-        width: 100%;
-        padding: 2% 0% 5% 35%;    
+		width: 100%;
+		text-align: center;    
     }
 
     .round-image{display:none;}
 
     .caption-img-btn{
         width: 100%;
-		font-size: 80%;
-		padding: 1% 1% 3% 1%;  
+		font-size: 100%;  
 	  }
 
     .text-container{
         width: 100%;
-        margin: 2% 0% 2% 0%;
-        padding: 1%
     }
     .features-about{
         width: 100%;
@@ -334,17 +331,42 @@ li {
 
     .features-articles{
 		 width: 100%;
-		 font-size: 80%;
-		 margin: 2%;
-		 }
+		 font-size: 90%;
+	}
 		 
-	.br{padding-left: 3%;}
 
     .middle-img{width: 100%;}
 	.services-product-vision{width: 100%;}
 	h4{widows: 100%;}
 
+	.contact-info {
+		font-size: 90%;
+	}
+
 }
 
+@media (max-width: 500px){
+
+	.nav-container {
+		flex-flow: column-reverse;
+	}
+
+	a {
+		width: 100%;
+		text-align: center;
+		padding: 3% 0% 3% 0%;
+		border-bottom: 1px solid grey;
+	}
+
+	.features-about {
+		flex-flow: column nowrap;
+	}
+
+	.services-product-vision {
+		flex-flow: column nowrap;
+	}
+
+
+}
 
 
